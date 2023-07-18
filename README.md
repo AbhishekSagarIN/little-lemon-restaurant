@@ -1,5 +1,5 @@
 # Screenshot
-![alt text](localhost_3000_.png)
+![alt text](little_lemon_homepage_ss.png)
 
 
 # Getting Started with Create React App
