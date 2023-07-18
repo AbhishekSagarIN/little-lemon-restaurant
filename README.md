@@ -1,5 +1,10 @@
 # Screenshot
+
+##Homepage
 ![alt text](little_lemon_homepage_ss.png)
+
+##Reservation
+![alt text](little_lemon_reservation_page.png)
 
 
 # Getting Started with Create React App
