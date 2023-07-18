@@ -1,0 +1,22 @@
+nav ul{
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+li a{
+    text-decoration: none;
+    color:#495E57;
+}
+
+li a:hover{
+    text-decoration: none;
+    color:#F4CE14;
+}

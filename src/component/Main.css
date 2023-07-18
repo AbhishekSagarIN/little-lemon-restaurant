@@ -1,0 +1,266 @@
+.hero-section{
+    background-color: #495E57;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content div{
+    width: 50%;
+    font-size: 'Markazi Text', serif;
+}
+
+.image-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+div.hero-image{
+    border-radius: 15px;
+  height: 448px;
+  width: 378px;
+  overflow: hidden; /* Change from 'hidden' to 'visible' */
+  object-fit: cover;
+  object-position: 50% ;
+  background-position: right center;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-60%, -38%);
+}
+
+.hero-image img{
+    height: 100%;
+    width: auto;
+
+}
+
+
+h1{
+    font-size: 64px;
+    color: #F4CE14;
+}
+
+h2{
+    font-size: 48px;
+    margin: 0;
+}
+
+.menu-section{
+    height: 718px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.menu-section-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.menu-main-button button, .tittle-container button{
+    width: 200px;
+    height: 60px;
+    background-color: #F4CE14;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-items{
+    display: flex;
+    gap: 15px;
+}
+
+.menu-item{
+    background-color: #EDEFEE;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 33%;
+    border: 2px solid #EDEFEE;
+}
+
+.menu-item h3{
+    margin: 0;
+}
+
+.menu-image{
+    width: 100%;
+    height: 234px;
+    overflow: hidden;
+}
+
+.menu-item-image{
+    width: 100%;
+}
+
+.menu-desc{
+    padding: 20px;
+}
+
+.menu-desc-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-desc-title p{
+    margin: 0;
+    color: #EE9972;
+    font-weight: bold;
+}
+
+.menu-desc-info p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-cta p{
+     margin: 0;
+     font-weight: 600;
+}
+
+/* Testimonial CSS Styling */
+.testimonials {
+    background-color: #EDEFEE;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.testimonials h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.testimonial-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.customer-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.customer-profile img{
+    width: 100%;
+}
+
+.customer-name{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* About Section Styling */
+
+.about{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+.about-container{
+    display: flex;
+    gap: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-box{
+    width: 45%;
+}
+
+.about-title{
+    margin-bottom: 40px;
+}
+
+.about-desc{
+    font-weight: 500;
+}
+
+.about-container-images{
+    position: relative;
+    margin-bottom: -30px; /* Add this line to compensate for image overlapping */
+}
+
+.about-img{
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid #EDEFEE;
+}
+
+.about-images{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about-img-1,
+.about-img-2 {
+  position: relative;
+}
+
+
+.about-img img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  background-position: left center;
+}
+
+.about-img-1 {
+    left: 30%;
+    bottom: 0;
+  }
+  .about-img-2 {
+    position: absolute;
+    left: 40%;
+    bottom: 20%;
+    transform: translate(-35%, 50%);
+  }
+
+  .about-img-2 img{
+    object-position: 50% 20%;
+  }
