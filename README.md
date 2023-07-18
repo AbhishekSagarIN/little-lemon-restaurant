@@ -1,9 +1,9 @@
 # Screenshot
 
-##Homepage
+## Homepage
 ![alt text](little_lemon_homepage_ss.png)
 
-##Reservation
+## Reservation
 ![alt text](little_lemon_reservation_page.png)
 
 
