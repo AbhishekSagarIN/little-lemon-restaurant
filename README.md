@@ -1,5 +1,8 @@
 # Screenshot
 
+##  Live Site Url:
+https://64b787343ebf4956d5e74355--inspiring-druid-e64de1.netlify.app/
+
 ## Homepage
 ![alt text](little_lemon_homepage_ss.png)
 
